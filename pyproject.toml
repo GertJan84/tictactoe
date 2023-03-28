@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "static"
+version = "0.1.0"
+description = ""
+authors = ["Gert-Jan"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+blessed = "^1.19.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
